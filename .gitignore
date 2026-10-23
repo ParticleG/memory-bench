@@ -1,0 +1,17 @@
+# Dependencies and model caches
+node_modules/
+.venv/
+.cache/
+
+# Generated benchmark data and frontend bundles
+runs/
+dist/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local credentials
+.env
+.env.*
+!.env.example
